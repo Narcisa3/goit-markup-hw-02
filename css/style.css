@@ -14,8 +14,99 @@ body{
     font-family: Roboto;
 }
 
+/* Header style */
+.header {}
+
+.logo {}
+
+.header__nav {}
+
+.header__info {}
+
 /* Index style */
+
 /* Presentation style */
 .presentation {
+    width: 1600px;
+    height: 600px;
     background-color: var(--dark);
 }
+
+.presentation__title {
+    font-weight: 900;
+    font-size: 44;
+    line-height: 10;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--white);
+}
+
+.presentation__push {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.presentation__push:hover {
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+.presentation__push:focus {
+    cursor: pointer;
+}
+
+/* About section style */
+.about{}
+
+.about__title {}
+
+.about__text {}
+
+/* Our team style */
+.team {}
+
+.team__title {}
+
+.team__subtitle {}
+
+.team__text {}
+
+
+
+/* Portfolio style */
+
+/* Buttons style */
+.button__push {
+    background-color: var(--light-gray);
+    color: var(--black)
+}
+
+.button__push:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.button:focus {
+    cursor: pointer;
+}
+
+/* Container info style */
+
+.container {}
+
+.container__title {}
+
+.container__text {}
+
+/* Footer style */
+
+.footer {}
+
+.footer__address {}
+
+.footer__mail {}
+
+.footer__tel {}
