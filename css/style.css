@@ -1,0 +1,21 @@
+:root {
+    --black: #212121;
+    --white: #FFFFFF;
+    --gray: #757575;
+    --white-gray: #EEEEEE;
+    --blue: #2196F3; 
+    --light-gray: #F5F4FA;
+    --dark-black: #000000;
+    --dark: #2F303A;
+    --light: #ECECEC;
+}
+
+body{
+    font-family: Roboto;
+}
+
+/* Index style */
+/* Presentation style */
+.presentation {
+    background-color: var(--dark);
+}
