@@ -14,13 +14,17 @@
 
 body{
     font-family: var(--primary-font);
-    color: var(--white);
+    color: var(--light);
 }
 
 /* Header style */
 
 .header {
     width: 1600px;
+}
+
+.logo {
+    color: var(--black);
 }
 
 .logo span {
@@ -198,6 +202,17 @@ body{
 .footer {
     width: 1600px;
     background-color:var(--dark);
+}
+
+.footer__logo {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: var(--secondary-font);
+    color: var(--white);
+}
+
+.footer__logo span {
+    color: var(--blue);
 }
 
 .footer__address {
