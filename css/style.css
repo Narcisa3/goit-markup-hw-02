@@ -14,13 +14,13 @@
 
 body{
     font-family: var(--primary-font);
+    color: var(--white);
 }
 
 /* Header style */
 
 .header {
-    width: 1600;
-    height: 80;
+    width: 1600px;
 }
 
 .logo span {
@@ -74,8 +74,7 @@ body{
 /* Presentation style */
 
 .presentation {
-    width: 1600;
-    height: 600;
+    width: 1600px;
     background-color: var(--dark);
 }
 
@@ -89,8 +88,7 @@ body{
 }
 
 .presentation__push {
-    width: 200;
-    height: 50;
+    width: 200px;
     text-align: center;
     color: var(--white);
     background-color: var(--blue);
@@ -199,7 +197,6 @@ body{
 
 .footer {
     width: 1600px;
-    height: 251px;
     background-color:var(--dark);
 }
 
@@ -217,10 +214,26 @@ body{
     color: var(--gray);
 }
 
+.footer__mail a:hover {
+    color: var(--blue);
+}
+
+.footer__mail a:focus {
+    cursor: pointer;
+}
+
 .footer__tel a {
     text-decoration: none;
         font-weight: 400;
         font-size: 14px;
         line-height: 16px;
         color: var(--gray);
+}
+
+.footer__tel a:hover {
+    color: var(--blue);
+}
+
+.footer__tel a:focus {
+    cursor: pointer;
 }
