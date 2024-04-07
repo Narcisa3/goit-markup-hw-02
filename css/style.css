@@ -65,6 +65,10 @@ body{
     color: var(--blue);
 }
 
+.header__info a:focus {
+    cursor: pointer;
+}
+
 /* Index style */
 
 /* Presentation style */
